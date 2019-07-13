@@ -1,0 +1,210 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+
+* {
+    border: 0.5px solid rgba(255, 0, 0, 0.5) !important;
+}
+$font-size: 1.5em;
+$fontP: 1em;
+.banner{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/Banner.png);
+    background-size: cover;
+    
+    
+    ul{
+        display: inline-block;
+        height: 150px;
+        width: 850px;
+        text-align: left;
+        text-decoration: none;
+        list-style: none;
+
+        li{
+            
+            a{
+                text-decoration: none;
+                list-style: none;
+            }
+        }
+
+        .navlogo{
+            
+            margin: 68px 38px;
+            font-size: 5em;
+            text-decoration: none;
+
+            a{
+                color: darkblue;
+                font-weight: 900;
+            }
+            
+        }
+        .navH{
+            text-decoration: none;
+            margin: 0 38px;
+            font-size: $font-size;
+
+            a{
+                color: red;
+                font-weight: 900;
+            }
+        }
+        .navA{
+            
+            margin: 0px 200px;
+            font-size: $font-size;
+
+            a{
+                color: black;
+                font-weight: 850;
+            }
+        }
+        .navN{
+            
+            margin: 45px 38px 0px 80px;
+            font-size: $font-size;
+
+            a{
+                color: rgb(100, 99, 201);
+                font-weight: 850;
+            }
+        }
+        .navC{
+            margin: 0px 240px;
+            font-size: $font-size;
+
+            a{
+                color: black;
+                font-weight: 850;
+            }
+        }
+    }
+}
+
+.content{
+    width: 1200px;
+    margin: 10px auto;
+
+    .title{
+        height: 70px;
+        
+        
+
+        h2{
+            color: red;
+            text-align: center;
+            margin: 10px auto;
+            font-weight: 700;
+            font-size: $font-size;
+        }
+        p{
+            font-size: $fontP;
+            color: rgba(0, 0, 0, 0.678);
+            margin: 15px auto;
+            
+        }
+    }
+    .typebox{
+        height: auto;
+        margin: 55px auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        overflow: hidden;
+        grid-gap: 20px;
+
+        p{
+            position: relative;
+            padding: 20px;
+        }
+        
+        .types{
+            height: auto;
+
+            .more{
+                height: 20px;
+                width: 50px;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                color: rgb(48, 21, 167);
+                text-align: center;
+                                
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+        img{
+            position: center;
+            width: 386.3px;
+            height: auto;
+            margin: 5px auto;
+            
+        }
+        
+
+    }
+    .types:nth-of-type(1) h2 {
+        color: red;
+        font-size: $font-size;
+        text-align: center;
+        font-weight: 800;
+
+        p{
+            font-size: $fontP;
+            text-align: center;          
+        }
+
+    }
+    .types:nth-of-type(2) h2 {
+        color: darkblue;
+        font-size: $font-size;
+        text-align: center;
+        font-weight: 800;
+
+        p{
+            font-size: $fontP;
+            text-align: center;
+            
+        }
+
+    }
+    .types:nth-of-type(3) h2 {
+        color: black;
+        font-size: $font-size;
+        text-align: center;
+        font-weight: 800;
+
+        p{
+            font-size: $fontP;
+            text-align: center;
+            
+        }
+
+    }
+    .gov{
+        
+        img{
+            width: 100%;
+        }
+        h2{
+            display: inline-block;
+            color: rgb(57, 88, 2);
+            font-size: 2em;
+            font-weight: 900;
+            width: 20%;
+            
+        }
+        p{
+            display: inline-block;
+            width: 70%;
+            font-size: $fontP;
+            margin-left:5%; 
+            vertical-align: top;
+        }
+        
+    }
+    
+}
+

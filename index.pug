@@ -1,29 +1,57 @@
 mixin types(img, title, p)
-    .product
-        img(src=img)
+    .types
         h2=title
+        img(src=img)
         p=p
+            a.more(href="") more
 <!DOCTYPE html>
 html(lang="zh")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Aviation
+        link(rel="stylesheet", href="style.css")
     body
         .banner
             ul
                 li.navlogo
-                    a(href="") LOGO
-                li.nav
+                    a(href="") JAviAtion
+                li.navH
                     a(href="") HOME
-                li.nav
+                li.navA
                     a(href="") ABOUT
-                li.nav
+                li.navN
                     a(href="") NEWS
-                li.nav
+                li.navC
                     a(href="") CONTACT
         .content    
             .title
                 h2 BE THE LEADER OF THE WORLD
                 p Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi praesentium tempora maiores officia, aperiam nesciunt? Sunt, modi laboriosam? Culpa in aliquid itaque voluptatem harum ab at suscipit alias neque accusamus cum facilis voluptatibus quisquam eligendi odit quidem, vel nisi!   
-            +types("images/Business-cover.png", "Business", "asddahuiowefjdsahfuiwfbnsdaiufoigbewifblsdbfiweif")    
+            .typebox    
+                +types("images/Business-cover.png", "BUSINESS", "Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi praesentium tempora maiores officia, aperiam nesciunt? Sunt, modi laboriosam? Culpa in aliquid itaque voluptatem harum ab at suscipit alias neque accusamus cum facilis voluptatibus quisquam eligendi odit quidem, vel nisi!")
+                +types("images/Technology-cover.png", "TECHNOLOGY", "Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi praesentium tempora maiores officia, aperiam nesciunt? Sunt, modi laboriosam? Culpa in aliquid itaque voluptatem harum ab at suscipit alias neque accusamus cum facilis voluptatibus quisquam eligendi odit quidem, vel nisi!")    
+                +types("images/Engineer-cover.png", "ENGINEER", "Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi praesentium tempora maiores officia, aperiam nesciunt? Sunt, modi laboriosam? Culpa in aliquid itaque voluptatem harum ab at suscipit alias neque accusamus cum facilis voluptatibus quisquam eligendi odit quidem, vel nisi!") 
+            .gov
+                img(src="images/GovProject-cover.png" alt="gov-cover")
+                h2 Gov PROJECT:
+                p Yes, we serve out goverment as well ... READ MORE
+
+        footer
+            img(src="images/icon.png", alt="AVIATION ICON")
+            ul
+                li.footnav
+                    a(href="") CONTACT
+                li.footnav
+                    a(href="") ABOUT
+                li.footnav
+                    a(href="") HOME
+                li.footnav
+                    a(href="") NEWS
+                li.footnav
+                    a(href="") JOIN US
+            div &copy; J AVIATION 2019
+
+
+
+

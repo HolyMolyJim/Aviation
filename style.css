@@ -1,0 +1,198 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+* {
+  border: 0.5px solid rgba(255, 0, 0, 0.5) !important;
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/Banner.png);
+  background-size: cover;
+}
+
+.banner ul {
+  display: inline-block;
+  height: 150px;
+  width: 850px;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+.banner ul li a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.banner ul .navlogo {
+  margin: 68px 38px;
+  font-size: 5em;
+  text-decoration: none;
+}
+
+.banner ul .navlogo a {
+  color: darkblue;
+  font-weight: 900;
+}
+
+.banner ul .navH {
+  text-decoration: none;
+  margin: 0 38px;
+  font-size: 1.5em;
+}
+
+.banner ul .navH a {
+  color: red;
+  font-weight: 900;
+}
+
+.banner ul .navA {
+  margin: 0px 200px;
+  font-size: 1.5em;
+}
+
+.banner ul .navA a {
+  color: black;
+  font-weight: 850;
+}
+
+.banner ul .navN {
+  margin: 45px 38px 0px 80px;
+  font-size: 1.5em;
+}
+
+.banner ul .navN a {
+  color: #6463c9;
+  font-weight: 850;
+}
+
+.banner ul .navC {
+  margin: 0px 240px;
+  font-size: 1.5em;
+}
+
+.banner ul .navC a {
+  color: black;
+  font-weight: 850;
+}
+
+.content {
+  width: 1200px;
+  margin: 10px auto;
+}
+
+.content .title {
+  height: 70px;
+}
+
+.content .title h2 {
+  color: red;
+  text-align: center;
+  margin: 10px auto;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.content .title p {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.678);
+  margin: 15px auto;
+}
+
+.content .typebox {
+  height: auto;
+  margin: 55px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  overflow: hidden;
+  grid-gap: 20px;
+}
+
+.content .typebox p {
+  position: relative;
+  padding: 20px;
+}
+
+.content .typebox .types {
+  height: auto;
+}
+
+.content .typebox .types .more {
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #3015a7;
+  text-align: center;
+}
+
+.content .typebox .types a {
+  text-decoration: none;
+}
+
+.content .typebox img {
+  position: center;
+  width: 386.3px;
+  height: auto;
+  margin: 5px auto;
+}
+
+.content .types:nth-of-type(1) h2 {
+  color: red;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 800;
+}
+
+.content .types:nth-of-type(1) h2 p {
+  font-size: 1em;
+  text-align: center;
+}
+
+.content .types:nth-of-type(2) h2 {
+  color: darkblue;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 800;
+}
+
+.content .types:nth-of-type(2) h2 p {
+  font-size: 1em;
+  text-align: center;
+}
+
+.content .types:nth-of-type(3) h2 {
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 800;
+}
+
+.content .types:nth-of-type(3) h2 p {
+  font-size: 1em;
+  text-align: center;
+}
+
+.content .gov img {
+  width: 100%;
+}
+
+.content .gov h2 {
+  display: inline-block;
+  color: #395802;
+  font-size: 2em;
+  font-weight: 900;
+  width: 20%;
+}
+
+.content .gov p {
+  display: inline-block;
+  width: 70%;
+  font-size: 1em;
+  margin-left: 5%;
+  vertical-align: top;
+}
+/*# sourceMappingURL=style.css.map */
