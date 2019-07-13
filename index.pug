@@ -1,3 +1,8 @@
+mixin types(img, title, p)
+    .product
+        img(src=img)
+        h2=title
+        p=p
 <!DOCTYPE html>
 html(lang="zh")
     head
@@ -5,3 +10,20 @@ html(lang="zh")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Aviation
     body
+        .banner
+            ul
+                li.navlogo
+                    a(href="") LOGO
+                li.nav
+                    a(href="") HOME
+                li.nav
+                    a(href="") ABOUT
+                li.nav
+                    a(href="") NEWS
+                li.nav
+                    a(href="") CONTACT
+        .content    
+            .title
+                h2 BE THE LEADER OF THE WORLD
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi praesentium tempora maiores officia, aperiam nesciunt? Sunt, modi laboriosam? Culpa in aliquid itaque voluptatem harum ab at suscipit alias neque accusamus cum facilis voluptatibus quisquam eligendi odit quidem, vel nisi!   
+            +types("images/Business-cover.png", "Business", "asddahuiowefjdsahfuiwfbnsdaiufoigbewifblsdbfiweif")    
